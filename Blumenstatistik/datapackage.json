@@ -1,0 +1,60 @@
+{
+  "title": "Blumenstatistik",
+  "name": "bfs-admin-ch-blumenstatistik",
+  "description": "Flower industry stats from the \"Arbeitsstätten und Beschäftigte nach Kanton, Wirtschaftsart und Grössenklasse\" (STATENT), obtained via STAT-TAB on May 1, 2015.",
+  "licenses": [
+    {
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "title": "Creative Commons Attribution Share-Alike 4.0",
+      "id": "CC-BY-SA-4.0"
+    }
+  ],
+  "resources": [
+    {
+      "name": "px-x-0602010000_103-fix.csv",
+      "path": "px-x-0602010000_103-fix.csv",
+      "mediatype": "text/csv",
+      "bytes": 22247,
+      "schema": {
+        "fields": [
+          {
+            "name": "Jahr",
+            "type": "integer"
+          },
+          {
+            "name": "Kanton",
+            "type": "string"
+          },
+          {
+            "name": "Wirtschaftsart (NOGA 2008)",
+            "type": "string"
+          },
+          {
+            "name": "Grössenklasse",
+            "type": "string"
+          },
+          {
+            "name": "Arbeitsstätten",
+            "type": "integer"
+          },
+          {
+            "name": "Beschäftigte",
+            "type": "integer"
+          },
+          {
+            "name": "Beschäftigte Männer",
+            "type": "integer"
+          },
+          {
+            "name": "Beschäftigte Frauen",
+            "type": "integer"
+          },
+          {
+            "name": "Vollzeitäquivalente",
+            "type": "number"
+          }
+        ]
+      }
+    }
+  ]
+}
